@@ -1,0 +1,66 @@
+.container_btn_virar{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+
+.card_container_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width: 230px;
+    height: 320px;
+    min-width: 180px;
+    min-height: 230px;
+    border-radius: 10px;
+    margin: 0 55px 0 55px;
+    transition: all 0.3s ease 0s;
+}
+
+.card_container_2:hover {
+    cursor: pointer;
+    box-shadow: #000000 5px 5px 15px 1px;
+}
+
+.card_name_2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: #4B5366;
+}
+
+.card_slash {
+    width: 85%;
+    margin: 20% 0;
+}
+
+
+.btn_virar{
+    width: 230px;
+    margin-top: 20px;
+}
+
+.cartao_pagination{
+    color: #FFF;
+    font-size: 23px;
+}
+
+.inputCard{
+    font-weight: 800;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 40px;
+    margin: 40px;
+}
+
+.card_name_3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    color: #344572;
+    padding-top: 80px;
+    display: none;
+}

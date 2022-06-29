@@ -1,0 +1,109 @@
+.container_colecao {
+    width: 85% !important;
+}
+
+
+.input_pesquisa {
+    height: 35px;
+    border-radius: 8px 8px;
+    border: none;
+    margin-left: 0;
+}
+.container_btn_cartao{
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+}
+
+.p_colecao{
+    color: #FFF;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.btn_novoCartao{
+    cursor: pointer;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 700 !important;
+    box-shadow: none;
+    background-color: #5E5796;
+    transition: all 0.3s ease 0s;
+    padding: 15px 35px; 
+}
+
+
+
+.container_btnJogar{
+    display: flex; 
+    align-items:center; 
+    justify-content: center; 
+    margin-top: 40px;
+}
+
+.btnJogar{
+    margin-top: 10px;
+    padding: 15px 32px !important;
+}
+
+
+.tabela_colecao{
+    display: flex !important;
+    justify-content: space-between;
+    background-color: #FFF;
+    border-radius: 8px;
+    margin-top: 8px !important;
+    margin-left: 0 !important;
+    padding: 8px 8px;
+}
+
+.container_editDelete{
+    margin-right: 10px;
+}
+
+.span_delete{
+    cursor: pointer;
+}
+
+.deleteCartao{
+    color: red;
+    margin-right: 5px;
+}
+
+.editCartao{
+    color: blue;
+}
+
+.editCartao:hover{
+    color: cadetblue;
+}
+.deleteCartao:hover{
+    color: darkred;
+}
+
+.pesquisa{
+    padding: 8px 8px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+
+.barra_pesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.pesquisa:hover{
+    background-color: rgb(111, 224, 168);
+}
+
+.deleteCartao:hover{
+    cursor: pointer;
+    font-size: 19px;
+}
+
+.editCartao:hover{
+    cursor: pointer;
+    font-size: 19px;
+}

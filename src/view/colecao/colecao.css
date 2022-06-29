@@ -1,0 +1,56 @@
+.card_container_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    width: 230px;
+    height: 320px;
+    min-width: 180px;
+    min-height: 230px;
+    border-radius: 10px;
+    margin: 0 55px 0 55px;
+    transition: all 0.3s ease 0s;
+}
+
+.card_container_2:hover {
+    cursor: pointer;
+    box-shadow: #000000 5px 5px 15px 1px;
+}
+
+.lapis_table {
+    color: #1515a0;
+    font-size: 25px !important;
+    margin-left: 85%;
+    margin-top: 5px;
+}
+
+.lapis_table:hover {
+    font-size: 26px !important;
+}
+
+.container_img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nome_cartao {
+    font-family: Tahoma, Times, serif;
+    color: rgb(0, 255, 179);
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.lixeira_table {
+    color: red;
+    font-size: 25px !important;
+    display: block;
+    margin-left: 85%;
+    margin-bottom: 5px;
+}
+
+.lixeira_table:hover {
+    font-size: 26px !important;
+}

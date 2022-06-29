@@ -1,0 +1,31 @@
+.formulario_cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 0 5px 8px;
+}
+
+.corpo_cartao{
+
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn_cadastro_cartao{
+    cursor: pointer;
+    border: none;
+    padding: 7px 26px !important;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 700 !important;
+    box-shadow: none;
+    width: 230px;
+    background-color: #5E5796;
+    transition: all 0.3s ease 0s;
+    padding: 15px 35px; 
+    margin-top: 20px;
+}

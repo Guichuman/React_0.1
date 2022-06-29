@@ -1,0 +1,37 @@
+.formulario_cadastro form input {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 0 5px 8px;
+}
+
+.btn_cadastro {
+    margin-left: 38%;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 700 !important;
+    box-shadow: none;
+    background-color: #5E5796;
+    transition: all 0.3s ease 0s;
+}
+
+
+
+.label_formulario{
+    color: #FFF;
+}
+.span_success{
+    color: rgb(30, 170, 30);
+    font-weight: 800 !important;
+}
+
+.span_error{
+    color: red;
+    font-weight: 800 !important;
+}

@@ -1,0 +1,24 @@
+.formulario_cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 0 5px 8px;
+}
+
+.corpo_cartao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btnProximo{
+  width: 230px;
+  margin-top: 20px;
+}
+
+.ghost{
+  display: none !important;
+}
